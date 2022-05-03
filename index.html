@@ -1,0 +1,20 @@
+<html>
+  <title>SSO Test</title>
+  <script src="https://cdn.jsdelivr.net/npm/@thoughtspot/visual-embed-sdk/dist/tsembed.js"></script>
+
+  <script type="module">
+    import {
+      LiveboardEmbed,
+      AuthType,
+      init,
+    } from "https://cdn.jsdelivr.net/npm/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js";
+
+    init({
+      thoughtSpotHost: "wine-grapes.corp.thoughtspot.com",
+      authType: AuthType.SSO,
+    });
+  </script>
+  <body>
+    Howdy!
+  </body>
+</html>
